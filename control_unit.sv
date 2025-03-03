@@ -1,6 +1,7 @@
 module control_unit (
     input logic [31:0] inst,
     output logic reg_wr, rd_en, wr_en, sel_A, sel_B,
+    output logic sel_c1,sel_c2,
     output logic [1:0] wb_sel,
     output logic [2:0] br_type,
     output logic [3:0] alu_op
@@ -18,6 +19,8 @@ module control_unit (
 
 
     always_comb begin
+        sel_c1=0;
+        sel_c2=0;
 
         // R-Type
         if (opcode == 7'b0110011) begin
