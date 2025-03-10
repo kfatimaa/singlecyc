@@ -1,0 +1,356 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples
+T_opt
+!s110 1741639237
+VO3M?;DFPQ2Y_Qod<NW;B^0
+04 12 4 work tb_processor fast 0
+=1-54e1ad05829d-67cf4e1f-38e-2d5c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vALU
+Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z2 !s110 1741639172
+!i10b 1
+!s100 9<M:Bjk1cz9azJUK7UibY1
+I?QSK^Ygm`SeMXMD_9ORIM0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALU_sv_unit
+S1
+Z4 dD:/m6/CA LAB/singlecyc
+w1739846359
+8D:/m6/CA LAB/singlecyc/ALU.sv
+FD:/m6/CA LAB/singlecyc/ALU.sv
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1741639167.000000
+!s107 D:/m6/CA LAB/singlecyc/ALU.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/ALU.sv|
+!i113 0
+Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@a@l@u
+vbranch_cond
+R1
+R2
+!i10b 1
+!s100 ;l]ULdS7LAIUQ`a<]WjCh1
+I;Pe^4=a[TLI;A:LS4iM;P0
+R3
+!s105 branch_cond_sv_unit
+S1
+R4
+w1739846363
+8D:/m6/CA LAB/singlecyc/branch_cond.sv
+FD:/m6/CA LAB/singlecyc/branch_cond.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1741639172.000000
+!s107 D:/m6/CA LAB/singlecyc/branch_cond.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/branch_cond.sv|
+!i113 0
+R6
+R0
+vcontrol_unit
+R1
+Z7 !s110 1741639173
+!i10b 1
+!s100 =O14m3Gzcdjd45gOPkZ_41
+I;B[_Uo3:1_P7cUcLfdP5g3
+R3
+!s105 control_unit_sv_unit
+S1
+R4
+w1741027942
+8D:/m6/CA LAB/singlecyc/control_unit.sv
+FD:/m6/CA LAB/singlecyc/control_unit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z8 !s108 1741639173.000000
+!s107 D:/m6/CA LAB/singlecyc/control_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/control_unit.sv|
+!i113 0
+R6
+R0
+vd_flipflop
+R1
+R7
+!i10b 1
+!s100 Ng2`>m<@b9Hh5dV5099271
+I<Z_diIAK6JkC:h1GbP=2l3
+R3
+!s105 d_flipflop_sv_unit
+S1
+R4
+w1741067412
+8D:/m6/CA LAB/singlecyc/d_flipflop.sv
+FD:/m6/CA LAB/singlecyc/d_flipflop.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/m6/CA LAB/singlecyc/d_flipflop.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/d_flipflop.sv|
+!i113 0
+R6
+R0
+vdata_mem
+R1
+R7
+!i10b 1
+!s100 WK;V0G4UzJ4z3j3Cd2]eg1
+I0MG5TjPBBdKdCR3IJO>?B1
+R3
+!s105 data_mem_sv_unit
+S1
+R4
+w1739846354
+8D:/m6/CA LAB/singlecyc/data_mem.sv
+FD:/m6/CA LAB/singlecyc/data_mem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/m6/CA LAB/singlecyc/data_mem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/data_mem.sv|
+!i113 0
+R6
+R0
+vdatapath
+R1
+Z9 !s110 1741639174
+!i10b 1
+!s100 ]6JLE4n6MKnjHn:0I:7Ld1
+Ij;Le2ZPj6YiJF<CCOiDMS1
+R3
+!s105 datapath_sv_unit
+S1
+R4
+w1741067662
+8D:/m6/CA LAB/singlecyc/datapath.sv
+FD:/m6/CA LAB/singlecyc/datapath.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/m6/CA LAB/singlecyc/datapath.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/datapath.sv|
+!i113 0
+R6
+R0
+vdff_ctrl
+R1
+R9
+!i10b 1
+!s100 :4lSFRa5RANGiO]be`@@V1
+I3WCe`OcVD]A_XEU]CZ[[g0
+R3
+!s105 dff_ctrl_sv_unit
+S1
+R4
+w1741067596
+8D:/m6/CA LAB/singlecyc/dff_ctrl.sv
+FD:/m6/CA LAB/singlecyc/dff_ctrl.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z10 !s108 1741639174.000000
+!s107 D:/m6/CA LAB/singlecyc/dff_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/dff_ctrl.sv|
+!i113 0
+R6
+R0
+vimm_gen
+R1
+R9
+!i10b 1
+!s100 JnMl@S=]a<Om6c=afKefM3
+I6F:Zhcz]<K98VCHHoZ<<X2
+R3
+!s105 imm_gen_sv_unit
+S1
+R4
+w1739846355
+8D:/m6/CA LAB/singlecyc/imm_gen.sv
+FD:/m6/CA LAB/singlecyc/imm_gen.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/m6/CA LAB/singlecyc/imm_gen.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/imm_gen.sv|
+!i113 0
+R6
+R0
+vinstr_mem
+R1
+R9
+!i10b 1
+!s100 >iIS=RFfQh=g<K>0A<amT0
+Io:IUU>9G9RK<IBA;R3?l72
+R3
+!s105 instr_mem_sv_unit
+S1
+R4
+w1741064041
+8D:/m6/CA LAB/singlecyc/instr_mem.sv
+FD:/m6/CA LAB/singlecyc/instr_mem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/m6/CA LAB/singlecyc/instr_mem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/instr_mem.sv|
+!i113 0
+R6
+R0
+vmux_2
+R1
+R9
+!i10b 1
+!s100 3L;mKPQz`7BYkWVi`Z0z72
+Ilf4gC`3C3ERL?m9XSbZB70
+R3
+!s105 mux_2_sv_unit
+S1
+R4
+w1739846357
+8D:/m6/CA LAB/singlecyc/mux_2.sv
+FD:/m6/CA LAB/singlecyc/mux_2.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/m6/CA LAB/singlecyc/mux_2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/mux_2.sv|
+!i113 0
+R6
+R0
+vmux_4
+R1
+Z11 !s110 1741639175
+!i10b 1
+!s100 [cOZRIV5l<jok;1N8IFcS3
+In@>=nN13^eO6j<hl^WbVG0
+R3
+!s105 mux_4_sv_unit
+S1
+R4
+w1739846349
+8D:/m6/CA LAB/singlecyc/mux_4.sv
+FD:/m6/CA LAB/singlecyc/mux_4.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z12 !s108 1741639175.000000
+!s107 D:/m6/CA LAB/singlecyc/mux_4.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/mux_4.sv|
+!i113 0
+R6
+R0
+vpgm_ctr
+R1
+R11
+!i10b 1
+!s100 a0^Vi0CV^CHcDzN<NXEUH1
+I=PPBM_C@F829KObDCAm[62
+R3
+!s105 pgm_ctr_sv_unit
+S1
+R4
+w1739846347
+8D:/m6/CA LAB/singlecyc/pgm_ctr.sv
+FD:/m6/CA LAB/singlecyc/pgm_ctr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/m6/CA LAB/singlecyc/pgm_ctr.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/pgm_ctr.sv|
+!i113 0
+R6
+R0
+vregister_file
+R1
+R11
+!i10b 1
+!s100 HhLR_l`376TIK5noN[zdQ1
+IOf`:n@Zzokj9YYlGfEoVg1
+R3
+!s105 register_file_sv_unit
+S1
+R4
+w1739846759
+8D:/m6/CA LAB/singlecyc/register_file.sv
+FD:/m6/CA LAB/singlecyc/register_file.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/m6/CA LAB/singlecyc/register_file.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/register_file.sv|
+!i113 0
+R6
+R0
+vtb_processor
+R1
+R11
+!i10b 1
+!s100 Cn@f<PMVg8N`^dWeBX]PX3
+IJS73F<1OPolRKZKz5[=^[1
+R3
+!s105 sc_tb_sv_unit
+S1
+R4
+w1741639107
+8D:/m6/CA LAB/singlecyc/sc_tb.sv
+FD:/m6/CA LAB/singlecyc/sc_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/m6/CA LAB/singlecyc/sc_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/m6/CA LAB/singlecyc/sc_tb.sv|
+!i113 0
+R6
+R0

@@ -4,9 +4,9 @@ module instr_mem(
 );
 logic [31:0] instruction_memory [0:4095];
 
-initial begin
-	$readmemh("D:/CA/Lab/Test/build/main.txt", instruction_memory);
-	end
+//initial begin
+	//$readmemh("D:/CA/Lab/Test/build/main.txt", instruction_memory);
+	//end
 assign instruction = instruction_memory[address[13:2]];
 
 endmodule

@@ -1,5 +1,7 @@
-module d_flipflop(output logic [31:0] q ,
-input logic clk, reset, [31:0] d
+module d_flipflop(
+    input logic [31:0] d,
+    input logic clk, reset, 
+    output logic [31:0] q 
 );
 always_ff @ (posedge clk or posedge reset)
 begin

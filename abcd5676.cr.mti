@@ -1,0 +1,99 @@
+{D:/m6/CA LAB/singlecyc/control_unit.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/control_unit.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {D:/m6/CA LAB/singlecyc/data_mem.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/data_mem.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} {D:/m6/CA LAB/singlecyc/branch_cond.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/branch_cond.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module branch_cond
+
+Top level modules:
+	branch_cond
+
+} {} {}} {D:/m6/CA LAB/singlecyc/ALU.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/ALU.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/m6/CA LAB/singlecyc/mux_2.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/mux_2.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux_2
+
+Top level modules:
+	mux_2
+
+} {} {}} {D:/m6/CA LAB/singlecyc/register_file.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/register_file.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} {D:/m6/CA LAB/singlecyc/dff_ctrl.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/dff_ctrl.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dff_ctrl
+
+Top level modules:
+	dff_ctrl
+
+} {} {}} {D:/m6/CA LAB/singlecyc/imm_gen.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/imm_gen.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module imm_gen
+
+Top level modules:
+	imm_gen
+
+} {} {}} {D:/m6/CA LAB/singlecyc/mux_4.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/mux_4.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux_4
+
+Top level modules:
+	mux_4
+
+} {} {}} {D:/m6/CA LAB/singlecyc/datapath.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/datapath.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {D:/m6/CA LAB/singlecyc/sc_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/sc_tb.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_processor
+
+Top level modules:
+	tb_processor
+
+} {} {}} {D:/m6/CA LAB/singlecyc/pgm_ctr.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/pgm_ctr.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pgm_ctr
+
+Top level modules:
+	pgm_ctr
+
+} {} {}} {D:/m6/CA LAB/singlecyc/instr_mem.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/instr_mem.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instr_mem
+
+Top level modules:
+	instr_mem
+
+} {} {}} {D:/m6/CA LAB/singlecyc/d_flipflop.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/m6/CA LAB/singlecyc/d_flipflop.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module d_flipflop
+
+Top level modules:
+	d_flipflop
+
+} {} {}}

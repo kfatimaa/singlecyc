@@ -31,17 +31,18 @@ logic [31:0] IRA_in;
 
 
 
+
 pgm_ctr pr_c1(yC,clk,rst,pc_out);
 d_flipflop prg_ctrA(pc_out,clk,rst,pcA_op);
 instr_mem inst_mem1(pc_out,instruction);
-d_flipflop IR_A(IRA_in,clk,rst,IRA_op);
+d_flipflop IR_A(instruction,clk,rst,IRA_op);
 
 d_flipflop IR_B(IRA_op,clk,rst,IRB_op);
 
 
 
 control_unit c1(IRA_op,reg_wr, rd_en, wr_en, sel_A, sel_B, sel_C1,sel_C2,wb_sel,br_type,alu_op );
-dff_ctrl dff_ct(reg_wr, rd_en, wr_en,wb_sel,reg_wrff,rd_enff,wr_enff,wb_selff);
+dff_ctrl dff_ct(reg_wr, rd_en, wr_en,clk,rst,wb_sel,reg_wrff,rd_enff,wr_enff,wb_selff);
 mux_4 m4(wb_sel,pcB_op+4,alu_ffop1,rdata,32'b0,wdata);
 
 imm_gen im_g1(IRA_op,imm_val);
@@ -55,17 +56,17 @@ mux_2 muxB(sel_B,ophaz2,imm_val,yB);
 ALU a1(alu_op,yA,yB,C);
 d_flipflop alu_ff(C,clk,rst,alu_ffop1);
 data_mem dm1(alu_ffop1,wd_ffop,wr_enff,rd_enff,clk,rst,rdata);
-mux_4 m4(wb_selff,pcB_op+4,alu_ffop1,rdata,32'b0,wdata);
+mux_4 m41(wb_selff,pcB_op+4,alu_ffop1,rdata,32'b0,wdata);
 mux_2 muxC(br_taken,pc_out+4,alu_ffop1,yC);
 mux_2 hazard1(sel_C1,rdata1,wdata,ophaz1);
 mux_2 hazard2(sel_C2,rdata2,wdata,ophaz2);
-mux_2 haz3(sels_a,instruction0x00000013,IRA_in);
+mux_2 haz3(sels_a,instruction,32'h00000013,IRA_in);
 always_comb begin
     w_in = wdata;
     rs1 = IRA_op[19:15];
     rs2 = IRA_op[24:20];
     rsd = IRB_op[11:7];
-    sels_a = br_taken
+    sels_a = br_taken;
 end
 
 endmodule

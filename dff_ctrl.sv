@@ -1,5 +1,6 @@
 module dff_ctrl(
     input logic reg_wr,rd_en,wr_en,
+    input logic clk,reset,
     input logic [1:0] wb_sel,
     output logic reg_wrff,rd_enff,wr_enff,
      output logic [1:0] wb_selff
